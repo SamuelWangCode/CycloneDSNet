@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+tmp/
+cache/
+
+# Training outputs
+lightning_logs/
+wandb/
+outputs/
+results/
+debug_*/
+case_study_plots/
+case_study_plots_detailed/
+attributions/
+
+# Checkpoints / weights
+*.ckpt
+*.pt
+*.pth
+checkpoints/
+data_file/DSNet/
+data_file/Diffusion/
+
+# Large data files
+*.nc
+*.npz
+*.npy
+*.pkl
+
+# Keep only small metadata if needed
+!data_file/forecast_instances.csv
+!data_file/typhoons.csv
+!data_file/typhoon_tracking_results_2024.csv
+!data_file/stats/hr_minmax_stats.npz
