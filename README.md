@@ -38,8 +38,8 @@ Pretrained model weights are not stored directly in this GitHub repository.
 
 They are released separately through:
 
-- **Hugging Face** for convenient download
-- **Zenodo** for archived release versions
+- **[Hugging Face](https://huggingface.co/CodeMonkeyqaq/CycloneDSNet/tree/main)** for convenient download
+- **[Zenodo](http://doi.org/10.5281/zenodo.19336248)** for archived release versions
 
 Please refer to the corresponding release page for download links and version information.
 
